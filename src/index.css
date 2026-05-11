@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  
+  --color-matiz-bg: #FDFCF7;
+  --color-matiz-ink: #1A1A1A;
+  --color-matiz-accent: #6B1D21;
+  --color-matiz-sand: #D4B996;
+  --color-matiz-muted: #8E8D8A;
+}
+
+@layer base {
+  body {
+    @apply bg-matiz-bg text-matiz-ink font-sans antialiased selection:bg-matiz-accent/10 selection:text-matiz-accent overflow-x-hidden;
+  }
+}
+
+.serif {
+  @apply font-serif;
+}
+
+/* Cinematic Grain Effect */
+.grain::after {
+  content: "";
+  position: fixed;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFCF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4B996;
+  border-radius: 10px;
+}
