@@ -40,7 +40,7 @@ export default function Interior() {
             className="relative aspect-[3/4] md:aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl shadow-matiz-ink/5"
           >
             <img 
-              src="https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?q=80&w=2670&auto=format&fit=crop" 
+              src="https://lh3.googleusercontent.com/d/1n0xy-T38JY2vYDK16beAcd3nU_cEt_jd" 
               alt="Ambiente Matiz" 
               className="w-full h-full object-cover filter grayscale contrast-125 brightness-90 transition-transform duration-[3s] hover:scale-105"
               referrerPolicy="no-referrer"

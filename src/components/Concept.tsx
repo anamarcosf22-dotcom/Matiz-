@@ -25,7 +25,7 @@ export default function Concept() {
                initial={{ opacity: 0, scale: 0.95 }}
                whileInView={{ opacity: 1, scale: 1 }}
                viewport={{ once: true }}
-               src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2647&auto=format&fit=crop" 
+               src="https://lh3.googleusercontent.com/d/12fzW4sEepEIDWn0RyKkvjc3-yczpV2B9" 
                className="rounded-full aspect-[2/3] object-cover mt-12"
                referrerPolicy="no-referrer"
              />
@@ -34,7 +34,7 @@ export default function Concept() {
                whileInView={{ opacity: 1, scale: 1 }}
                viewport={{ once: true }}
                transition={{ delay: 0.2 }}
-               src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2670&auto=format&fit=crop" 
+               src="https://lh3.googleusercontent.com/d/1KnQnR9mtT5wBgh5X-BjQfVC2s8KZml_i" 
                className="rounded-full aspect-[2/3] object-cover"
                referrerPolicy="no-referrer"
              />
