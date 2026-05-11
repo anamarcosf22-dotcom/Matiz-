@@ -26,6 +26,7 @@ export default function Navigation() {
         <a href="#espacio" className="hover:opacity-60 transition-opacity">El Espacio</a>
         <a href="#evolucion" className="hover:opacity-60 transition-opacity">Evolución</a>
         <a href="#carta" className="hover:opacity-60 transition-opacity">La Carta</a>
+        <a href="#contacto" className="hover:opacity-60 transition-opacity">Contacto</a>
         <a href="#reserva" className="hover:opacity-60 transition-opacity">Reservar</a>
       </div>
 

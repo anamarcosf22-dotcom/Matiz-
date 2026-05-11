@@ -4,6 +4,7 @@ import Concept from './components/Concept';
 import Evolution from './components/Evolution';
 import Interior from './components/Interior';
 import Menu from './components/Menu';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import { motion, useScroll, useSpring } from 'motion/react';
 
@@ -31,6 +32,7 @@ export default function App() {
         <Interior />
         <Evolution />
         <Menu />
+        <ContactForm />
         <Footer />
       </div>
     </main>
